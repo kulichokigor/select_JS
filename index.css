@@ -1,0 +1,32 @@
+.app{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.drowblock{
+    width: 20%;
+    overflow: hidden;
+}
+.drowblock__label{
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 5px;
+}
+.drowblock__select{
+    padding: 5px 0;
+    margin: 0;
+    border: 1px solid green;
+    border-radius: 4px;
+    display: none;
+}
+.drowblock__select li{
+    list-style: none;
+    padding: 5px 10px;
+}
+.drowblock__select li:hover{
+    background-color: lightcyan;
+    cursor: pointer;
+}
+.open{
+    display: block;
+}
