@@ -29,8 +29,8 @@ class Dropdown{
 const dropdown = new Dropdown('#dropdown', {
     list:[
         {label:'Poltava', id:'pl'},
-        {label:'Kiev', id:'kv'},
-        {label:'Khorol', id:'khor'},
+        {label:'Kyiv', id:'kv'},
+        {label:'Odessa', id:'od'},
         {label:'Kharkiv', id:'kh'},
         {label:'Ivano-Frankivsk', id:'fr'},
         {label:'Lviv', id:'lv'},
